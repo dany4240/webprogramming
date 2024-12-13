@@ -121,7 +121,8 @@ form {
         border-radius: 0%;
         filter: blur(0px) drop-shadow(-2.5px 10px 5rem red);
         border: 2px solid red;
-        transition: .5s;
+        width: 60%;
+        height: 50%;
     }
     
 }
