@@ -8,6 +8,8 @@ nav {
     margin: auto 0;
     border-bottom: 2px solid;
     margin-bottom: 20px;
+    border-top: 2px solid;
+    
 }
 .nav-1 ul li {
     font-size: 30px;
@@ -61,17 +63,7 @@ ol li {
     font-size: 100px;
 }
 
-ul li {
-    font-size: 10px;
-    list-style-type: disc;
-    list-style-image: url("./assets/check-mark.png");
-    
-}
 
-ul li img {
-    width: 20px;
-    height: 20px;
-}
 
 #table-custom {
     border-collapse: collapse;
@@ -80,11 +72,10 @@ ul li img {
 }
 #table-custom th,td {
     border: 2px solid black;
-}
-
-th,td {
     padding: 20px;
 }
+
+
 
 #table-custom tr:first-child {
     background-color: gray;
@@ -97,10 +88,44 @@ th,td {
 }
 
 #form1 {
-    background-color: gray;
-    width: 600px;
     position: relative;
+}
+
+form {
+    width: 600px;
     display: flex;
     margin: auto;
     padding: auto;
+    
+}
+
+.section-hero1 {
+    width: 100vw;
+
+    .img-cat {
+        width: 40%;
+        height: 30%;
+        display: flex;
+        padding: auto;
+        margin: auto;
+        margin-bottom: 20px;
+        object-fit: cover;
+        border-radius: 100%;
+        transition: .5s;
+        filter: blur(10px) drop-shadow(-2.5px 10px 5rem black);
+        border: 2px solid red;
+        
+    }
+
+    .img-cat:hover {
+        border-radius: 0%;
+        filter: blur(0px) drop-shadow(-2.5px 10px 5rem red);
+        border: 2px solid red;
+        transition: .5s;
+    }
+    
+}
+
+#login {
+    border-color: white;
 }
