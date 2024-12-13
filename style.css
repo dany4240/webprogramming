@@ -1,0 +1,106 @@
+style1 {
+    margin: 50px;
+    position: relative;
+}
+
+nav {
+    width: 100vw;
+    margin: auto 0;
+    border-bottom: 2px solid;
+    margin-bottom: 20px;
+}
+.nav-1 ul li {
+    font-size: 30px;
+    display: inline;
+    padding: 10px;
+    
+}
+
+.nav-1 ul li:hover{
+    background-color: black;
+    color: white;
+}
+p {
+    color: blue;
+}
+
+.link-deco {
+    text-decoration: none;
+    font-size: 100px;
+}
+
+.link-deco:hover {
+    text-decoration: underline;
+    color: red !important;
+    font-style: italic;
+    transition: .5s;
+}
+
+.link-deco:link {
+    color: black;
+}
+
+#btn-custom {
+    background-color: purple;
+    border-radius: 100px;
+    size: 1000px;
+    border-color: transparent;
+    cursor: pointer;
+    font-size: 100px;
+}
+
+#btn-custom:hover {
+    color: red;
+    background-color: blue;
+    border-radius: 0px;
+    transition: .20s;
+}
+
+ol li {
+    list-style-type: upper-roman;
+    font-size: 100px;
+}
+
+ul li {
+    font-size: 10px;
+    list-style-type: disc;
+    list-style-image: url("./assets/check-mark.png");
+    
+}
+
+ul li img {
+    width: 20px;
+    height: 20px;
+}
+
+#table-custom {
+    border-collapse: collapse;
+    
+
+}
+#table-custom th,td {
+    border: 2px solid black;
+}
+
+th,td {
+    padding: 20px;
+}
+
+#table-custom tr:first-child {
+    background-color: gray;
+    color: black;
+}
+
+#table-custom tr:hover {
+    background-color: gray ;
+    transition: .5s;
+}
+
+#form1 {
+    background-color: gray;
+    width: 600px;
+    position: relative;
+    display: flex;
+    margin: auto;
+    padding: auto;
+}
